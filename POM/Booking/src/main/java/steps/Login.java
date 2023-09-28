@@ -27,6 +27,7 @@ public class Login {
     public void password(){
         loginPage.getDriver().findElement(loginPage.getTXT_PASSWORD())
                 .sendKeys("123456789Smith");
+
     }
     public void signIn(){
     loginPage.getDriver().findElement(loginPage.getBTN_SIGN_IN())
