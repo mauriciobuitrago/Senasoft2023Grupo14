@@ -1,12 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Accommodation" skipped="0" tests="1" time="26.42" timestamp="2023-09-27 05:39:25"><testcase name="he user can make the hotel reservation according to his convenience"><failure message="Expected condition failed: waiting for By.xpath: //*[@id=&quot;calendar-searchboxdatepicker&quot;]/div/div[1]/div/div[1]/table/tbody/tr[5]/td[6]/span to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'SOFAIN', ip: '172.18.7.75', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //*[@id="calendar-searchboxdatepicker"]/div/div[1]/div/div[1]/table/tbody/tr[5]/td[6]/span to be present (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SOFAIN', ip: '172.18.7.75', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //*[@id="calendar-searchboxdatepicker"]/div/div[1]/div/div[1]/table/tbody/tr[5]/td[6]/span to be present (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SOFAIN', ip: '172.18.7.75', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
-Driver info: driver.version: unknown&#13;
-tasks.Accommodation.performAs(Accommodation.java:22)&#13;
-stepdefinitions.AccommodationStepDefinition.StartsTheInteractionWithThePageAndTheHotelReservationIntegratingTheEstablishedParameters(AccommodationStepDefinition.java:11)&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Accommodation" skipped="0" tests="2" time="35.99" timestamp="2023-09-28 11:09:05"><testcase name="he user can make the hotel reservation according to his convenience"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+tasks.Accommodation.performAs(Accommodation.java:25)&#13;
+stepdefinitions.AccommodationStepDefinition.StartsTheInteractionWithThePageAndTheHotelReservationIntegratingTheEstablishedParameters(AccommodationStepDefinition.java:12)&#13;
 io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
 io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
 io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;

@@ -10,6 +10,5 @@ public class HotelCostStepDefinition {
     @And("The user begins to select filters on the page")
     public void TheUserBeginsToSelectFiltersOnThePage(){
         theActorInTheSpotlight().attemptsTo(HotelCost.inThePage());
-
     }
 }

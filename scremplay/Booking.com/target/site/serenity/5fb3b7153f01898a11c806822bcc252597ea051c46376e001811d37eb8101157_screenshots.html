@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 17:39</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 28-09-2023 11:09</span>
     <br style="clear:left"/>
 </div>
 
@@ -218,7 +218,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Element should be present exception: Expected condition failed: waiting for By.xpath: //*[@id='calendar-searchboxdatepicker']/div/div[1]/div/div[1]/table/tbody/tr[5]/td[6]/span to be present (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'SOFAIN', ip: '172.18.7.75', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'Driver info: driver.version: unknown</span>
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -234,19 +234,19 @@
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException </h4>
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>tasks.Accommodation.performAs(Accommodation.java:22)<br />stepdefinitions.AccommodationStepDefinition.StartsTheInteractionWithThePageAndTheHotelReservationIntegratingTheEstablishedParameters(AccommodationStepDefinition.java:11)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                        <pre>tasks.Accommodation.performAs(Accommodation.java:25)<br />stepdefinitions.AccommodationStepDefinition.StartsTheInteractionWithThePageAndTheHotelReservationIntegratingTheEstablishedParameters(AccommodationStepDefinition.java:12)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
                     </div>
 
                     <h4>
                         Caused by: org.openqa.selenium.TimeoutException
                     </h4>
                     <div>
-                            <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;calendar-searchboxdatepicker&quot;]/div/div[1]/div/div[1]/table/tbody/tr[5]/td[6]/span to be present (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: 'SOFAIN', ip: '172.18.7.75', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'<br>Driver info: driver.version: unknown</pre>
-                        <pre>tasks.Accommodation.performAs(Accommodation.java :22)<br />stepdefinitions.AccommodationStepDefinition.StartsTheInteractionWithThePageAndTheHotelReservationIntegratingTheEstablishedParameters(AccommodationStepDefinition.java :11)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :234)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
+                            <pre>Expected condition failed: waiting for By.xpath: /html/body/div[4]/div[2]/div/form/div[1]/div[1]/div/div/div[1]/div/div/input to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>tasks.Accommodation.performAs(Accommodation.java :25)<br />stepdefinitions.AccommodationStepDefinition.StartsTheInteractionWithThePageAndTheHotelReservationIntegratingTheEstablishedParameters(AccommodationStepDefinition.java :12)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :234)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java :69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java :74)<br /></pre>
                     </div>
                 </div>
             </div>
@@ -255,40 +255,63 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource11206521309207512469.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource12968095784024618880.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="6adbecc0900d6e5cc4f241dd7d793907df9250c4a90550e3e590209377ac1625.png" title=" Example 1: {E-mail=jhonsenapro@gmail.com, Password=Sumadre199314}" width="1366"/>
-                <img src="6adbecc0900d6e5cc4f241dd7d793907df9250c4a90550e3e590209377ac1625.png" title=" Given 'user' is on the login page 'https://www.booking.com/'" width="1366"/>
-                <img src="6adbecc0900d6e5cc4f241dd7d793907df9250c4a90550e3e590209377ac1625.png" title=" user opens the https://www.booking.com/" width="1366"/>
-                <img src="6adbecc0900d6e5cc4f241dd7d793907df9250c4a90550e3e590209377ac1625.png" title=" When he user is filling out the credentials to log in
+                <img src="ade0a1cce2cfe11ce4b856966c567d44c266a677e55f1dcc45fb7f4f887fafdc.png" title=" Example 1: {E-mail=jhonsenapro@gmail.com, Password=123456789Smith}" width="986"/>
+                <img src="ade0a1cce2cfe11ce4b856966c567d44c266a677e55f1dcc45fb7f4f887fafdc.png" title=" Given 'user' is on the login page 'https://www.booking.com/'" width="986"/>
+                <img src="ade0a1cce2cfe11ce4b856966c567d44c266a677e55f1dcc45fb7f4f887fafdc.png" title=" user opens the https://www.booking.com/" width="986"/>
+                <img src="ade0a1cce2cfe11ce4b856966c567d44c266a677e55f1dcc45fb7f4f887fafdc.png" title=" Given 'user' is on the login page 'https://www.booking.com/' (completed)" width="986"/>
+                <img src="ade0a1cce2cfe11ce4b856966c567d44c266a677e55f1dcc45fb7f4f887fafdc.png" title=" When he user is filling out the credentials to log in
 | E-mail | jhonsenapro@gmail.com |
-| Password | Sumadre199314 |" width="1366"/>
-                <img src="089c5f757ea7881c2b4c98db4711dc17b9f2647b0dafc73b51ba7e1159025c80.png" title=" User login" width="1366"/>
-                <img src="089c5f757ea7881c2b4c98db4711dc17b9f2647b0dafc73b51ba7e1159025c80.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page" width="1366"/>
-                <img src="b522889f91529f15a09c4e6f2222fbe57777bf741ede19e5c818f4f83398a71c.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page (completed)" width="1366"/>
-                <img src="b522889f91529f15a09c4e6f2222fbe57777bf741ede19e5c818f4f83398a71c.png" title=" user enters 'jhonsenapro@gmail.com' into we enter credentials such as email" width="1366"/>
-                <img src="32ae3071662f56d5f72e39acc937a92eda4ee911e631e75d06ff3905d375788b.png" title=" user enters 'jhonsenapro@gmail.com' into we enter credentials such as email (completed)" width="1366"/>
-                <img src="32ae3071662f56d5f72e39acc937a92eda4ee911e631e75d06ff3905d375788b.png" title=" user clicks on Once the email has been entered, click on the continue button" width="1366"/>
-                <img src="2931cedbbf043c76a4c8e56329725691c3ce794d70204f3e1e554b6b939ca6ef.png" title=" user clicks on Once the email has been entered, click on the continue button (completed)" width="1366"/>
-                <img src="2931cedbbf043c76a4c8e56329725691c3ce794d70204f3e1e554b6b939ca6ef.png" title=" user enters 'Sumadre199314' into we enter the password" width="1366"/>
-                <img src="355a96cd49d61e9eeea0d24c544b9819f045b5ed6dbd0a3e440e7e826e17c049.png" title=" user enters 'Sumadre199314' into we enter the password (completed)" width="1366"/>
-                <img src="355a96cd49d61e9eeea0d24c544b9819f045b5ed6dbd0a3e440e7e826e17c049.png" title=" user clicks on We click on the log in or create account button" width="1366"/>
-                <img src="38e43fd49e8725eae43731bf0f176dbf8bd058b6322e7679b8e995ab8f6dade4.png" title=" User login" width="1366"/>
-                <img src="38e43fd49e8725eae43731bf0f176dbf8bd058b6322e7679b8e995ab8f6dade4.png" title=" user clicks on We click on the log in or create account button (completed)" width="1366"/>
-                <img src="ed8d60dc625d1bd7da564f92ab7f7deaed51f0308adb128fa6d651c21b054d72.png" title=" When he user is filling out the credentials to log in
+| Password | 123456789Smith |" width="986"/>
+                <img src="ade0a1cce2cfe11ce4b856966c567d44c266a677e55f1dcc45fb7f4f887fafdc.png" title=" User login" width="986"/>
+                <img src="61d688b7893acb6f6d12e296ba2fdf12dda001c88e818b142f3cfb4fa087b22e.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page" width="986"/>
+                <img src="4dc93a1dd813a63bdab3837e44974b62f66fef76ed38771ae6be4046e2262d10.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page (completed)" width="986"/>
+                <img src="4dc93a1dd813a63bdab3837e44974b62f66fef76ed38771ae6be4046e2262d10.png" title=" user enters 'jhonsenapro@gmail.com' into we enter credentials such as email" width="986"/>
+                <img src="eecdc4bd55ed2d37805b504d371d5b2b19e414f9e242c9a47213db66e33f270c.png" title=" user enters 'jhonsenapro@gmail.com' into we enter credentials such as email (completed)" width="986"/>
+                <img src="eecdc4bd55ed2d37805b504d371d5b2b19e414f9e242c9a47213db66e33f270c.png" title=" user clicks on Once the email has been entered, click on the continue button" width="986"/>
+                <img src="3341f46038a9abfbb7fd7305542f8e3e1acdf3702d9f64d704efff1f0ca766c4.png" title=" user clicks on Once the email has been entered, click on the continue button (completed)" width="986"/>
+                <img src="3341f46038a9abfbb7fd7305542f8e3e1acdf3702d9f64d704efff1f0ca766c4.png" title=" user enters '123456789Smith' into we enter the password" width="986"/>
+                <img src="8f8abae4415ca9c302f6422ea410e9f32c1f85d7031eb880777d7965ea01a32b.png" title=" user enters '123456789Smith' into we enter the password (completed)" width="986"/>
+                <img src="8f8abae4415ca9c302f6422ea410e9f32c1f85d7031eb880777d7965ea01a32b.png" title=" user clicks on We click on the log in or create account button" width="986"/>
+                <img src="3f93a1d0e00ae4749cb57418c77782a094f8053fcfd3b09a89ce67e9b6bdaafc.png" title=" user clicks on We click on the log in or create account button (completed)" width="986"/>
+                <img src="3f93a1d0e00ae4749cb57418c77782a094f8053fcfd3b09a89ce67e9b6bdaafc.png" title=" User login (completed)" width="986"/>
+                <img src="3f93a1d0e00ae4749cb57418c77782a094f8053fcfd3b09a89ce67e9b6bdaafc.png" title=" When he user is filling out the credentials to log in
 | E-mail | jhonsenapro@gmail.com |
-| Password | Sumadre199314 | (completed)" width="1366"/>
-                <img src="ed8d60dc625d1bd7da564f92ab7f7deaed51f0308adb128fa6d651c21b054d72.png" title=" And Starts the interaction with the page and the hotel reservation integrating the established parameters" width="1366"/>
-                <img src="ed8d60dc625d1bd7da564f92ab7f7deaed51f0308adb128fa6d651c21b054d72.png" title=" User accommodation" width="1366"/>
-                <img src="ed8d60dc625d1bd7da564f92ab7f7deaed51f0308adb128fa6d651c21b054d72.png" title=" user clicks on We click on the reservation date section to display the dates" width="1366"/>
-                <img src="b14a25dc4ef3ea4b98cf2410e0c9b28fd890889ee6b78698f882d51e135c41f2.png" title=" user clicks on We click on the reservation date section to display the dates (completed)" width="1366"/>
-                <img src="b14a25dc4ef3ea4b98cf2410e0c9b28fd890889ee6b78698f882d51e135c41f2.png" title=" user clicks on Before continuing we return a position to be able to find the current date" width="1366"/>
-                <img src="3a69ef3a90037f156e4c3c4a8107a17f33d2cad60b87d4f80ad2d5b3f45e361e.png" title=" user clicks on Before continuing we return a position to be able to find the current date (completed)" width="1366"/>
-                <img src="3a69ef3a90037f156e4c3c4a8107a17f33d2cad60b87d4f80ad2d5b3f45e361e.png" title=" user clicks on We choose the first day and click on it" width="1366"/>
-                <img src="27d196303ce3654fbc87dd4c35a4696d7c3e6bfe822b770f35cb15247aea4187.png" title=" user clicks on We choose the first day and click on it (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
+| Password | 123456789Smith | (completed)" width="986"/>
+                <img src="3f93a1d0e00ae4749cb57418c77782a094f8053fcfd3b09a89ce67e9b6bdaafc.png" title=" And Starts the interaction with the page and the hotel reservation integrating the established parameters" width="986"/>
+                <img src="3f93a1d0e00ae4749cb57418c77782a094f8053fcfd3b09a89ce67e9b6bdaafc.png" title=" User accommodation" width="986"/>
+                <img src="3f93a1d0e00ae4749cb57418c77782a094f8053fcfd3b09a89ce67e9b6bdaafc.png" title=" user enters 'Santa Marta' into We enter the city of origin" width="986"/>
+                <img src="568381e326f4e921c7dec286951f86a97e9a1669981803484b9590a546bd8f97.png" title=" user enters 'Santa Marta' into We enter the city of origin (completed)" width="986"/>
+                <img src="17d2fc4b30367f2f2af2c7ae4c10b78d8aeb596bfbf30ef9a997ba45f85f8164.png" title=" Example 2: {E-mail=eljhonsito@gmail.com, Password=123456789Smith}" width="986"/>
+                <img src="17d2fc4b30367f2f2af2c7ae4c10b78d8aeb596bfbf30ef9a997ba45f85f8164.png" title=" Given 'user' is on the login page 'https://www.booking.com/'" width="986"/>
+                <img src="17d2fc4b30367f2f2af2c7ae4c10b78d8aeb596bfbf30ef9a997ba45f85f8164.png" title=" user opens the https://www.booking.com/" width="986"/>
+                <img src="17d2fc4b30367f2f2af2c7ae4c10b78d8aeb596bfbf30ef9a997ba45f85f8164.png" title=" Given 'user' is on the login page 'https://www.booking.com/' (completed)" width="986"/>
+                <img src="17d2fc4b30367f2f2af2c7ae4c10b78d8aeb596bfbf30ef9a997ba45f85f8164.png" title=" When he user is filling out the credentials to log in
+| E-mail | eljhonsito@gmail.com |
+| Password | 123456789Smith |" width="986"/>
+                <img src="17d2fc4b30367f2f2af2c7ae4c10b78d8aeb596bfbf30ef9a997ba45f85f8164.png" title=" User login" width="986"/>
+                <img src="17d2fc4b30367f2f2af2c7ae4c10b78d8aeb596bfbf30ef9a997ba45f85f8164.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page" width="986"/>
+                <img src="7e1e11d2c9a373f0b345cf75c32ce625ebe6d88286aa4612353c068c60d05d29.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page (completed)" width="986"/>
+                <img src="7e1e11d2c9a373f0b345cf75c32ce625ebe6d88286aa4612353c068c60d05d29.png" title=" user enters 'eljhonsito@gmail.com' into we enter credentials such as email" width="986"/>
+                <img src="feb7032239d98f91d160c6e5abd9495889d25f5ef86b87944d81dd0192f0eef2.png" title=" user enters 'eljhonsito@gmail.com' into we enter credentials such as email (completed)" width="986"/>
+                <img src="feb7032239d98f91d160c6e5abd9495889d25f5ef86b87944d81dd0192f0eef2.png" title=" user clicks on Once the email has been entered, click on the continue button" width="986"/>
+                <img src="188f4fb300ce12a379b236ba39e2e9f0900993fbbb496a42e1ea7a030e30a5de.png" title=" user clicks on Once the email has been entered, click on the continue button (completed)" width="986"/>
+                <img src="188f4fb300ce12a379b236ba39e2e9f0900993fbbb496a42e1ea7a030e30a5de.png" title=" user enters '123456789Smith' into we enter the password" width="986"/>
+                <img src="18d1912f8fe535aba7f981d14ba930aa54d5f880ace43eb2dae44be86f757dc8.png" title=" user enters '123456789Smith' into we enter the password (completed)" width="986"/>
+                <img src="18d1912f8fe535aba7f981d14ba930aa54d5f880ace43eb2dae44be86f757dc8.png" title=" user clicks on We click on the log in or create account button" width="986"/>
+                <img src="a2d954756bac53f00e570090f07ee1b3532445f656c90729af8a0f333f3e87e9.png" title=" user clicks on We click on the log in or create account button (completed)" width="986"/>
+                <img src="a2d954756bac53f00e570090f07ee1b3532445f656c90729af8a0f333f3e87e9.png" title=" User login (completed)" width="986"/>
+                <img src="a2d954756bac53f00e570090f07ee1b3532445f656c90729af8a0f333f3e87e9.png" title=" When he user is filling out the credentials to log in
+| E-mail | eljhonsito@gmail.com |
+| Password | 123456789Smith | (completed)" width="986"/>
+                <img src="a2d954756bac53f00e570090f07ee1b3532445f656c90729af8a0f333f3e87e9.png" title=" And Starts the interaction with the page and the hotel reservation integrating the established parameters" width="986"/>
+                <img src="a2d954756bac53f00e570090f07ee1b3532445f656c90729af8a0f333f3e87e9.png" title=" User accommodation" width="986"/>
+                <img src="525c8dd37df919a9453da50ebfcbf523c59db6994ec2627006df2b071a800be1.png" title=" user enters 'Santa Marta' into We enter the city of origin" width="986"/>
+                <img src="9ee99dd998bad77f8722c89ace7f3c63b36aea85cc3adfdb4b348cdde7537a83.png" title=" user enters 'Santa Marta' into We enter the city of origin (completed): <span class='failing-color'>FAILURE</span>" width="986"/>
             </div>
         </div>
 

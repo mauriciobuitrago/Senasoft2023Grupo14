@@ -24,13 +24,7 @@ public class LoginStepDefinition {
 
     @When("he user is filling out the credentials to log in")
     public void heUserIsFillingOutTheCredentialsToLogIn(Map<String,String>mapCredencialesUsers) {
-
         theActorInTheSpotlight().attemptsTo(Login.inThePage(mapCredencialesUsers));
-        try {
-            Thread.sleep(6000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
     }
 
 

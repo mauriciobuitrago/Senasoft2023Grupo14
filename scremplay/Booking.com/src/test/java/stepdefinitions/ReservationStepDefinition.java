@@ -1,7 +1,6 @@
 package stepdefinitions;
 
 import io.cucumber.java.en.And;
-import tasks.Accommodation;
 import tasks.Reservation;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
