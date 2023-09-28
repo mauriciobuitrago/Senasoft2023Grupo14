@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 10:42</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 27-09-2023 13:43</span>
     <br style="clear:left"/>
 </div>
 
@@ -189,9 +189,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">he user will log in to access the services of the page
+                                <span class="error-color">he user will log in to access the services of the page
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -207,37 +207,62 @@
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Given he 'user' is on the login page 'https://www.booking.com/'<br>When he user is filling out the credentials to log in<br><table class='embedded'><thead><th>E-mail</th><th>&lt;E-mail&gt;</th></thead><tbody><tr><td>Password</td><td>&lt;Password&gt;</td></tr></tbody></table><br>Then he user has had a successful login</div>
+        <div class="scenario">Given 'user' is on the login page 'https://www.booking.com/'<br>When he user is filling out the credentials to log in<br><table class='embedded'><thead><th>E-mail</th><th>&lt;E-mail&gt;</th></thead><tbody><tr><td>Password</td><td>&lt;Password&gt;</td></tr></tbody></table><br>Then he user has had a successful login</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element not interactable exception: element not interactable</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.ElementNotInteractableException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tasks.Login.performAs(Login.java:21)<br />stepdefinitions.LoginStepDefinition.heUserIsFillingOutTheCredentialsToLogIn(LoginStepDefinition.java:28)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource16238463500945887507.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="0b24dacf4ded48d0ebe978d3e7a4da4e6392973130d60966c8b5173999e8c744.png" title=" Example 1: {E-mail=jhonsenapro@gmail.com, Password=Sumadre199314}" width="1366"/>
-                <img src="0b24dacf4ded48d0ebe978d3e7a4da4e6392973130d60966c8b5173999e8c744.png" title=" Given he 'user' is on the login page 'https://www.booking.com/'" width="1366"/>
-                <img src="0b24dacf4ded48d0ebe978d3e7a4da4e6392973130d60966c8b5173999e8c744.png" title=" user opens the https://www.booking.com/" width="1366"/>
-                <img src="0b24dacf4ded48d0ebe978d3e7a4da4e6392973130d60966c8b5173999e8c744.png" title=" Given he 'user' is on the login page 'https://www.booking.com/' (completed)" width="1366"/>
-                <img src="0b24dacf4ded48d0ebe978d3e7a4da4e6392973130d60966c8b5173999e8c744.png" title=" When he user is filling out the credentials to log in
+                <img src="d806b600b8ebee8de2eac413b7e1fb64cd838811b004fc845b20922330987cd7.png" title=" Example 1: {E-mail=jhonsenapro@gmail.com, Password=Sumadre199314}" width="1366"/>
+                <img src="d806b600b8ebee8de2eac413b7e1fb64cd838811b004fc845b20922330987cd7.png" title=" Given 'user' is on the login page 'https://www.booking.com/'" width="1366"/>
+                <img src="d806b600b8ebee8de2eac413b7e1fb64cd838811b004fc845b20922330987cd7.png" title=" user opens the https://www.booking.com/" width="1366"/>
+                <img src="d806b600b8ebee8de2eac413b7e1fb64cd838811b004fc845b20922330987cd7.png" title=" Given 'user' is on the login page 'https://www.booking.com/' (completed)" width="1366"/>
+                <img src="d806b600b8ebee8de2eac413b7e1fb64cd838811b004fc845b20922330987cd7.png" title=" When he user is filling out the credentials to log in
 | E-mail | jhonsenapro@gmail.com |
 | Password | Sumadre199314 |" width="1366"/>
-                <img src="27c1382868caa9d9f863b40b74a006e4aedd9396b1702fc332e34e945f864965.png" title=" User login" width="1366"/>
-                <img src="27c1382868caa9d9f863b40b74a006e4aedd9396b1702fc332e34e945f864965.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page" width="1366"/>
-                <img src="c88a95a448af3cbf348c11a503c26d9691220a91dd939e89255dd2d839242557.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page (completed)" width="1366"/>
-                <img src="c88a95a448af3cbf348c11a503c26d9691220a91dd939e89255dd2d839242557.png" title=" user enters 'jhonsenapro@gmail.com' into we enter credentials such as email" width="1366"/>
-                <img src="11f94871dcaa8bc0925c7a7e15fdb3fa82063287fb1808531e28b89edec5f3a4.png" title=" user enters 'jhonsenapro@gmail.com' into we enter credentials such as email (completed)" width="1366"/>
-                <img src="11f94871dcaa8bc0925c7a7e15fdb3fa82063287fb1808531e28b89edec5f3a4.png" title=" user clicks on Once the email has been entered, click on the continue button" width="1366"/>
-                <img src="1d0bcaf41f839a87e49c3df98f5f4db73fc0161a617f3ed211a297dd23de2591.png" title=" user clicks on Once the email has been entered, click on the continue button (completed)" width="1366"/>
-                <img src="1d0bcaf41f839a87e49c3df98f5f4db73fc0161a617f3ed211a297dd23de2591.png" title=" user enters 'Sumadre199314' into we enter the password" width="1366"/>
-                <img src="1a225c62267e239f8074911c753a95efe1d9dbdcd2b1eb75f3411f55bad14df3.png" title=" user enters 'Sumadre199314' into we enter the password (completed)" width="1366"/>
-                <img src="1a225c62267e239f8074911c753a95efe1d9dbdcd2b1eb75f3411f55bad14df3.png" title=" user clicks on We click on the log in or create account button" width="1366"/>
-                <img src="82ea367023265b36f4682ea6c5d543d0f5495f8b0d87191f09794f776ebaba6f.png" title=" user clicks on We click on the log in or create account button (completed)" width="1366"/>
-                <img src="82ea367023265b36f4682ea6c5d543d0f5495f8b0d87191f09794f776ebaba6f.png" title=" User login (completed)" width="1366"/>
-                <img src="b4090caea41bb715de633315875071a896b443fa6a3de353237b1cbbbeff5a5e.png" title=" When he user is filling out the credentials to log in
-| E-mail | jhonsenapro@gmail.com |
-| Password | Sumadre199314 | (completed)" width="1366"/>
-                <img src="b4090caea41bb715de633315875071a896b443fa6a3de353237b1cbbbeff5a5e.png" title=" Then he user has had a successful login" width="1366"/>
-                <img src="b4090caea41bb715de633315875071a896b443fa6a3de353237b1cbbbeff5a5e.png" title=" Example 1: {E-mail=jhonsenapro@gmail.com, Password=Sumadre199314} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="ec27435c752f9859b0e9b3fcd4948e9a523abe06d7b63df9d22ead8e13874150.png" title=" User login" width="1366"/>
+                <img src="ec27435c752f9859b0e9b3fcd4948e9a523abe06d7b63df9d22ead8e13874150.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page" width="1366"/>
+                <img src="ec27435c752f9859b0e9b3fcd4948e9a523abe06d7b63df9d22ead8e13874150.png" title=" user clicks on In the home section we click on log in or create an account to access the benefits of the page (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

@@ -24,7 +24,6 @@ public class Login implements Task {
                 Click.on(LoginPage.BTN_CONTINUE),
                 Enter.theValue(mapCredencialesUsers.get("Password")).into(LoginPage.TXT_PASSWORD),
                 Click.on(LoginPage.BTN_SIGN_IN)
-
         );
     }
 

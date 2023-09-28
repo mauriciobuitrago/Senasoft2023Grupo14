@@ -15,8 +15,8 @@ import static net.serenitybdd.screenplay.actors.OnStage.*;
 public class LoginStepDefinition {
 
 
-    @Given("he {string} is on the login page {string}")
-    public void heUserIsOnTheLoginPageHttpsWwwBookingCom(String nameActor , String url) {
+    @Given("{string} is on the login page {string}")
+    public void userIsOnTheLoginPageHttpsWwwBookingCom(String nameActor , String url) {
         setTheStage(new OnlineCast());
         theActorCalled(nameActor).wasAbleTo(Open.url(url));
 
@@ -24,9 +24,10 @@ public class LoginStepDefinition {
 
     @When("he user is filling out the credentials to log in")
     public void heUserIsFillingOutTheCredentialsToLogIn(Map<String,String>mapCredencialesUsers) {
+
         theActorInTheSpotlight().attemptsTo(Login.inThePage(mapCredencialesUsers));
         try {
-            Thread.sleep(3000);
+            Thread.sleep(6000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

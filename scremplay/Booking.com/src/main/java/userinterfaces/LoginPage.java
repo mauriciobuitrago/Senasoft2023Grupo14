@@ -7,4 +7,5 @@ public class LoginPage {
     public static final Target BTN_CONTINUE = Target.the("Once the email has been entered, click on the continue button").locatedBy("//*[@id=\"root\"]/div/div/div/div[2]/div[1]/div/div/div/div/div/div/form/div[3]/button");
     public static final Target TXT_PASSWORD = Target.the("we enter the password").locatedBy("//*[@id=\"password\"]");
     public static final Target  BTN_SIGN_IN = Target.the("We click on the log in or create account button").locatedBy("//*[@id=\"root\"]/div/div/div/div[2]/div[1]/div/div/div/div/div/div/form/div[2]/button");
+
 }

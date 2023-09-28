@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login","he user will log in to access the services of the page","SUCCESS","2023-09-27T10:42:01.5085885-05:00[America/Bogota]","0.0","16.72"
+"Accommodation","he user can make the hotel reservation according to his convenience","FAILURE","2023-09-27T17:39:25.3708681-05:00[America/Bogota]","0.0","26.42"
+"HotelCost","the user selects the price of the most appropriate room for their respective reservation","SUCCESS","2023-09-27T20:05:46.1504971-05:00[America/Bogota]","0.0","28.43"
+"Login","he user will log in to access the services of the page","ERROR","2023-09-27T13:43:57.9792834-05:00[America/Bogota]","0.0","9.35"
