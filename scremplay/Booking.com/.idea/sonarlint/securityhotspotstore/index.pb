@@ -9,8 +9,6 @@ R
 +src/main/java/userinterfaces/LoginPage.java,8\6\86d7d0d73615605f2c8bbd1d2aa19ab25e57d167
 _
 /src/main/java/userinterfaces/HotelCostPage.java,7\3\73e4ff02a202c2a08c2face7fbf0ded05b99373a
-\
-,src/main/java/interactions/ClickDateDay.java,5\0\50cf0723e00d04607a3d2b8e3e0551bf16c65a57
 N
 src/main/java/tasks/Login.java,8\a\8a9a48966424dc7a8e9dd16e1e06c118616c7501
 f
@@ -29,3 +27,11 @@ C
 serenity.properties,2\5\25f1bbdc8dba7ca4a4b90251f1ef69621b24a28c
 c
 3src/main/java/userinterfaces/AccommodationPage.java,a\9\a9a11e2582b6b29affe763c690d939e7f9588872
+\
+,src/test/java/runners/ReservationRunner.java,5\a\5ae71672a0663a844abb6c115a4f25c0261671ed
+a
+1src/main/java/userinterfaces/ReservationPage.java,d\b\db13eb75f098afa6ae3aa892c10ba165be634e22
+T
+$src/main/java/tasks/Reservation.java,8\3\8399db99275530558c32d0f80a2121c1a6a6e011
+l
+<src/test/java/stepdefinitions/ReservationStepDefinition.java,8\6\867e0fef11f2b0c8914e379f736f9d69a917cbb1

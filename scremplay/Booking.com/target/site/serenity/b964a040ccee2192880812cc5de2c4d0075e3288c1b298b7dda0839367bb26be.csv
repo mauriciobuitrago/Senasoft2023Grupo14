@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Accommodation","he user can make the hotel reservation according to his convenience","FAILURE","2023-09-27T17:39:25.3708681-05:00[America/Bogota]","0.0","26.42"
 "Login","he user will log in to access the services of the page","ERROR","2023-09-27T13:43:57.9792834-05:00[America/Bogota]","0.0","9.35"
+"Reservation","the home user will start the reservation of his hotel","FAILURE","2023-09-28T09:12:12.2295435-05:00[America/Bogota]","0.0","91.85"

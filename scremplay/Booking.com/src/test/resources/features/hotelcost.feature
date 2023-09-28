@@ -11,5 +11,6 @@ Feature:HotelCost
     Then he user has had a successful login
 
     Examples:
-      | E-mail                | Password      |
-      | jhonsenapro@gmail.com | Sumadre199314 |
+      | E-mail                | Password       |
+      | jhonsenapro@gmail.com | 123456789Smith  |
+      | eljhonsito@gmail.com  | 123456789Smith |

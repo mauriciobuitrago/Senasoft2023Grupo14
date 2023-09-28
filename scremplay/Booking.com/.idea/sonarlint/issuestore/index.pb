@@ -5,8 +5,6 @@ R
 "src/main/java/tasks/HotelCost.java,a\b\ab9db698555eb32107801d936bd234d9be5b1cfd
 [
 +src/main/java/userinterfaces/LoginPage.java,8\6\86d7d0d73615605f2c8bbd1d2aa19ab25e57d167
-\
-,src/main/java/interactions/ClickDateDay.java,5\0\50cf0723e00d04607a3d2b8e3e0551bf16c65a57
 N
 src/main/java/tasks/Login.java,8\a\8a9a48966424dc7a8e9dd16e1e06c118616c7501
 Z
@@ -29,3 +27,11 @@ V
 &src/main/java/tasks/Accommodation.java,8\7\875e1d60fe8e3a6bed788871bf5073654f23e316
 c
 3src/main/java/userinterfaces/AccommodationPage.java,a\9\a9a11e2582b6b29affe763c690d939e7f9588872
+\
+,src/test/java/runners/ReservationRunner.java,5\a\5ae71672a0663a844abb6c115a4f25c0261671ed
+a
+1src/main/java/userinterfaces/ReservationPage.java,d\b\db13eb75f098afa6ae3aa892c10ba165be634e22
+l
+<src/test/java/stepdefinitions/ReservationStepDefinition.java,8\6\867e0fef11f2b0c8914e379f736f9d69a917cbb1
+T
+$src/main/java/tasks/Reservation.java,8\3\8399db99275530558c32d0f80a2121c1a6a6e011
